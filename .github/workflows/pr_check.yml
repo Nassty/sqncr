@@ -27,6 +27,6 @@ jobs:
         with:
           version: "latest"
       - name: Build
-        run: trunk build
+        run: cargo build
       - name: Run tests
         run: cargo test --verbose
